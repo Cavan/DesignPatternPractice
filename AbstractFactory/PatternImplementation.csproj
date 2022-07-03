@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{ED8E571B-D430-4EA7-9778-6009D98E7166}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbstractFactory</RootNamespace>
-    <AssemblyName>AbstractFactory</AssemblyName>
+    <RootNamespace>PatternImplementation</RootNamespace>
+    <AssemblyName>PatternImplementation</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,6 +46,9 @@
     <Compile Include="Patterns\Creational\AbstractFactory.cs" />
     <Compile Include="Patterns\Creational\Builder.cs" />
     <Compile Include="Patterns\Creational\FactoryMethod.cs" />
+    <Compile Include="Patterns\Creational\Prototype.cs" />
+    <Compile Include="Patterns\Creational\Singleton.cs" />
+    <Compile Include="Patterns\Structural\Adapter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -54,7 +57,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Patterns\Behavioral\" />
-    <Folder Include="Patterns\Structural\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
